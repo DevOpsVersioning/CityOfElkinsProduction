@@ -1,0 +1,124 @@
+body{
+  background-color: #E0DDC4;
+  font-family: Arial, Helvetica, Geneva, sans-serif;
+  font-size: 12px;
+  color: #000;
+  margin: 0px auto;
+    }
+
+article {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  background-image: url('http://cityofelkinswv.com/templates/default/images/grad.gif');
+  background-repeat: no-repeat;
+  background-position: top;
+    }
+
+form {
+  line-height: 18px;
+  word-spacing: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+        clear:both;
+    }
+
+footer {
+  padding: 5px 0 5px 0;
+  font-size: 90%;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: #205f04;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+    }
+
+h1{
+  color: #205F04;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 24px;
+    }
+
+h2{
+font-size: 19px;
+line-height: 17.1667px;
+color: #205F04;
+padding-bottom: 5px;
+margin-bottom: 0px;
+padding-left: 5px;
+padding-right: 5px;
+ }
+
+ h3{
+ font-size: 14px;
+line-height: 17.1667px;
+color: #205F04;
+padding-bottom: 5px;
+margin-bottom: 0px;
+padding-left: 5px;
+padding-right: 5px;
+ }
+ 
+header {
+  margin: 0px auto;
+  width: 960px;
+  height: 357px;
+  background-image: url('http://cityofelkinswv.com/templates/default/newslideshow/05.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+    }
+	
+p ,li{
+  line-height: 18px;
+  word-spacing: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+        clear:both;
+    }
+
+label{
+  line-height: 18px;
+  word-spacing: 2px;
+  padding-left: 5px;
+  padding-right: 1px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+        clear:both;
+}
+
+#wrap {
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+}
+#right_col {
+   float:right;
+   width:300px;
+}
+.clear { clear: both; }
+
+.result {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.syserror {
+  color: #4c0000;
+}
+
+.usererror {
+  color: #4c0000;
+}
