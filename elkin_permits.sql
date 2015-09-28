@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 23, 2015 at 03:03 PM
+-- Generation Time: Sep 28, 2015 at 12:53 PM
 -- Server version: 5.5.40-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.5
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `elkins_permits`
 --
+CREATE DATABASE IF NOT EXISTS `elkins_permits` DEFAULT CHARACTER SET ascii COLLATE ascii_general_ci;
+USE `elkins_permits`;
 
 DELIMITER $$
 --
@@ -67,11 +69,6 @@ RETURN true;
 END$$
 
 DELIMITER ;
---
--- Database: `elkins_permits`
---
-CREATE DATABASE IF NOT EXISTS `elkins_permits` DEFAULT CHARACTER SET ascii COLLATE ascii_general_ci;
-USE `elkins_production_storage`;
 
 -- --------------------------------------------------------
 
@@ -90,8 +87,6 @@ CREATE TABLE IF NOT EXISTS `attachments` (
   UNIQUE KEY `id` (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=ascii AUTO_INCREMENT=234 ;
 
--- --------------------------------------------------------
-USE elkins_permits
 --
 -- Table structure for table `submissions`
 --
@@ -105,6 +100,7 @@ CREATE TABLE IF NOT EXISTS `submissions` (
   PRIMARY KEY (`submission_number`),
   UNIQUE KEY `submission_number` (`submission_number`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=ascii AUTO_INCREMENT=83 ;
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
